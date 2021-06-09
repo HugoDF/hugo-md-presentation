@@ -47,6 +47,8 @@ To give the presentation a bit of colour.
 
 There's support for a `<sample>` tag to inject code samples.
 
+This facilitates writing/maintaining the samples as standalone files.
+
 Define the path to inject using the `path="./relative-path.ext"` attribute.
 
 ----
@@ -58,9 +60,6 @@ Python sample:
 JavaScript Sample:
 
 <sample path="./samples/sample.js"></sample>
-
-This facilitates writing/maintaining the samples as standalone files.
-
 
 ---
 
