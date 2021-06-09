@@ -4,8 +4,7 @@
     "dev": "npm start -- -w",
     "build": "reveal-md presentation.md --preprocessor .preprocessor/preprocessor.js --highlight-theme color-brewer --static static",
     "print": "reveal-md --preprocessor .preprocessor/preprocessor.js --highlight-theme color-brewer presentation.md --print slides.pdf",
-    "prepare": "husky install",
-    "pre-commit": "exit 0"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "husky": "^6.0.0",

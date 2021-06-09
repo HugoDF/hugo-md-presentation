@@ -30,6 +30,7 @@ Twitter: [@hugo__df](https://twitter.com/hugo__df)
 1. Emoji Support
 2. Injection of samples
 3. Fragment support
+4. npm scripts
 
 ---
 
@@ -71,6 +72,15 @@ There's fragment support
 <fragment>2. </fragment>
 <fragment>3.</fragment>
 <fragment>...</fragment>
+
+---
+
+## 4. Scripts
+
+- `npm run build`: build to `static` (HTML/CSS)
+- `npm run print`: build to PDF
+- `npm start`: start the local server
+- `npm run dev`: start the local server in watch mode
 
 ---
 
