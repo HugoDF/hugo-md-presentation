@@ -36,7 +36,7 @@ async function readSampleFiles(samplePaths) {
 }
 
 async function injectSamples(markdown) {
-  const samplePaths = markdown.match(sampleRegex).map((sample) => sample.match(pathRegex)[0])
+  const samplePaths = (markdown.match(sampleRegex) || []).map((sample) => sample.match(pathRegex)[0])
   const samplePathToContent = await readSampleFiles(samplePaths)
 
   return markdown.replace(sampleRegex, (replaceValue) => {
