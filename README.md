@@ -9,6 +9,11 @@ Built on top of [reveal-md](https://github.com/webpro/reveal-md)/[reveal.js](htt
 With additional processing of emoji, fragments & injection of code samples.
 
 
+## Acknowledgments
+
+- Leverages [reveal-md](https://github.com/webpro/reveal-md) for the markdown editing experience
+- Uses [decktape](https://github.com/astefanutti/decktape) for PDF generation
+
 ## Development
 
 To run `md-presentation` locally, you can:

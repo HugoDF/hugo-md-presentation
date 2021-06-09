@@ -83,6 +83,8 @@ There's fragment support
 
 ---
 
-## Further Reading :book:
+## Acknowledgments :book:
 
-- Initially used for [codewithhugo.com/async-js](https://codewithhugo.com/async-js)
+- Leverages [reveal-md](https://github.com/webpro/reveal-md) for the markdown editing experience
+- Uses [decktape](https://github.com/astefanutti/decktape) for PDF generation
+- Initially used for [async-js-presentation](https://github.com/HugoDF/async-js-presentation), see [codewithhugo.com/async-js](https://codewithhugo.com/async-js)
